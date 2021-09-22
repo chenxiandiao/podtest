@@ -1,0 +1,16 @@
+PODS:
+  - BPod (0.1.0)
+
+DEPENDENCIES:
+  - BPod (from `../`)
+
+EXTERNAL SOURCES:
+  BPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BPod: 8bcbf8a69b4a9d3e92a77ff5d3af27e67a89b8d4
+
+PODFILE CHECKSUM: eb04cb31eb43ca605ab42cfd5f64e6bef284eaca
+
+COCOAPODS: 1.10.2

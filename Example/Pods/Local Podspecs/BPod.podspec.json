@@ -1,0 +1,22 @@
+{
+  "name": "BPod",
+  "version": "0.1.0",
+  "summary": "A short description of BPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cxd/BPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cxd": "15068808239@163.com"
+  },
+  "source": {
+    "git": "https://github.com/cxd/BPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BPod/Classes/**/*"
+}
