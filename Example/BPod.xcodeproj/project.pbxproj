@@ -24,6 +24,9 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B8C4796A37738AF441CE8ABD /* Pods_BPod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E449CD8D9259396A5688027 /* Pods_BPod_Example.framework */; };
 		DDB60BCC0578DF95A7CE5635 /* Pods_BPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBB1DAE2B82A4B848C813C2 /* Pods_BPod_Tests.framework */; };
+		EC98D35726FC2639008E46D0 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = EC98D35526FC2639008E46D0 /* .gitkeep */; };
+		EC98D35826FC2639008E46D0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EC98D35626FC2639008E46D0 /* ReplaceMe.m */; };
+		EC98D35B26FC274E008E46D0 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC98D35A26FC274E008E46D0 /* BlueViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AECB6995A9EE5F2FA2211DA8 /* Pods-BPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BPod_Tests/Pods-BPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CBBB1DAE2B82A4B848C813C2 /* Pods_BPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC98D35526FC2639008E46D0 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC98D35626FC2639008E46D0 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		EC98D35926FC274D008E46D0 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		EC98D35A26FC274E008E46D0 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +116,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				EC98D35426FC2639008E46D0 /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for BPod */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -194,6 +202,18 @@
 				257FD7604ABC3C316624B3F8 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		EC98D35426FC2639008E46D0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC98D35926FC274D008E46D0 /* BlueViewController.h */,
+				EC98D35A26FC274E008E46D0 /* BlueViewController.m */,
+				EC98D35526FC2639008E46D0 /* .gitkeep */,
+				EC98D35626FC2639008E46D0 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = ../BPod/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +302,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				EC98D35726FC2639008E46D0 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -367,6 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC98D35826FC2639008E46D0 /* ReplaceMe.m in Sources */,
+				EC98D35B26FC274E008E46D0 /* BlueViewController.m in Sources */,
 				6003F59E195388D20070C39A /* ZYXKTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZYXKTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
